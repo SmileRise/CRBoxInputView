@@ -308,7 +308,7 @@ typedef NS_ENUM(NSInteger, CRBoxTextChangeType) {
     
     if (verStr.length >= _codeLength) {
         verStr = [verStr substringToIndex:_codeLength];
-        [self endEdit];
+//        [self endEdit];
     }
     textField.text = verStr;
     
